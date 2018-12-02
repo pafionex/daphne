@@ -4,20 +4,29 @@
 			<div class="header__inner">
 				<div class="socials">
 					<ul>
+						
 						<li>
-							<i>Facebook</i>
+							<a href="#">
+								<fa-icon [icon]="['fab', 'facebook']"></fa-icon>
+							</a>
 						</li>
 			
 						<li>
-							<i>Twitter</i>
+							<a href="#">
+								<fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+							</a>
 						</li>
 						
 						<li>
-							<i>Instagram</i>
+							<a href="#">
+								<fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+							</a>
 						</li>
 			
 						<li>
-							<i>Google +</i>
+							<a href="#">
+								<fa-icon [icon]="['fab', 'google-plus']"></fa-icon>
+							</a>
 						</li>
 					</ul>
 				</div><!-- /.socials -->
@@ -25,11 +34,15 @@
 				<nav class="nav nav--utils">
 					<ul>
 						<li>
-							<a routerLinnk="">555 338 148</a>
+							<fa-icon [icon]="['fas', 'phone']"></fa-icon>
+
+							<a href="tel:555 338 148">555 338 148</a>
 						</li>
 						
 						<li>
-							<a routerLinnk="">Студентска 1</a>
+							<fa-icon [icon]="['fas', 'map-marker-alt']"></fa-icon>
+
+							<a routerLinnk="">ул. "Студентска 1"</a>
 						</li>
 
 						<li>
@@ -46,7 +59,9 @@
 									</div><!-- /.form__body -->
 									
 									<div class="form__actions">
-										<input type="submit" value="Submit" class="form__btn">
+										<button type="submit" value="" class="form__btn">
+											<fa-icon [icon]="['fas', 'search']"></fa-icon>
+										</button>
 									</div><!-- /.form__actions -->
 								</form>
 							</div><!-- /.form form-search -->
