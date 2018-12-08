@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './content/home/home.component';
-import { SliderComponent } from './sections/slider/slider.component';
 import { ArticleComponent } from './sections/article/article.component';
 
 // Font Awesome
@@ -19,6 +18,9 @@ import { faGooglePlus } from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 
 library.add(faFacebook);
 library.add(faTwitter);
@@ -34,13 +36,13 @@ library.add(faSearch);
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SliderComponent,
     ArticleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
