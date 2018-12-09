@@ -4,8 +4,7 @@
 
 .header { position: relative; z-index: 1; }
 .header .header__inner { display: flex; justify-content: space-between; align-items: center; }
-.header .header__head { padding: 6px 0; background-color: var(--c-purple-dark); color: var(--c-white); position: relative; z-index: 1
-; box-shadow: 0 1px 3px rgba( 0, 0, 0, .6 ); }
+.header .header__head { padding: 6px 0; background-color: var(--c-purple-dark); color: var(--c-white); position: relative; z-index: 1; box-shadow: 0 1px 3px rgba( 0, 0, 0, .6 ); }
 .header .header__main { padding: 50px 0; background-color: var(--c-purple-light); color: var(--c-white); box-shadow: 0 5px 10px 0 rgba( 0, 0, 0, .2 ); }
 
 /* ------------------------------------------------------------ *\
