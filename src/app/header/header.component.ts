@@ -17,10 +17,10 @@ export class HeaderComponent implements OnInit {
   ]
 
   navMain = [
-    { link: "#", label: 'Начало' },
-    { link: "#", label: 'За нас' },
-    { link: "#", label: 'Услуги' },
-    { link: "#", label: 'Контакти' }
+    { link: "", label: 'Начало' },
+    { link: "about", label: 'За нас' },
+    { link: "services", label: 'Услуги' },
+    { link: "contact", label: 'Контакти' }
   ];
 
   navUtils = [

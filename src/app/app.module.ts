@@ -6,7 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './content/home/home.component';
+import { AboutComponent } from './content/about/about.component';
+import { ServicesComponent } from './content/services/services.component';
+import { ContactComponent } from './content/contact/contact.component';
 import { ArticleComponent } from './sections/article/article.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { WidgetComponent } from './footer/widget/widget.component';
+import { SocialsComponent } from './header/socials/socials.component';
+import { NavComponent } from './header/nav/nav.component';
+import { NavUtilsComponent } from './header/nav-utils/nav-utils.component';
 
 // Font Awesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -19,11 +27,6 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { WidgetComponent } from './footer/widget/widget.component';
-import { SocialsComponent } from './header/socials/socials.component';
-import { NavComponent } from './header/nav/nav.component';
-import { NavUtilsComponent } from './header/nav-utils/nav-utils.component';
 
 
 library.add(faFacebook);
@@ -44,7 +47,10 @@ library.add(faSearch);
     WidgetComponent,
     SocialsComponent,
     NavComponent,
-    NavUtilsComponent
+    NavUtilsComponent,
+    AboutComponent,
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

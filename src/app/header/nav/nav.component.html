@@ -1,7 +1,7 @@
 <nav class="nav nav-main">
 	<ul>
 		<li *ngFor="let navItem of nav">
-			<a href="{{ navItem.link }}">{{ navItem.label }}</a>
+			<a routerLink="{{ navItem.link }}">{{ navItem.label }}</a>
 		</li>
 	</ul>
 </nav><!-- /.nav -->
