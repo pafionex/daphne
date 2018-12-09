@@ -6,33 +6,3 @@
 .header .header__inner { display: flex; justify-content: space-between; align-items: center; }
 .header .header__head { padding: 6px 0; background-color: var(--c-purple-dark); color: var(--c-white); position: relative; z-index: 1; box-shadow: 0 1px 3px rgba( 0, 0, 0, .6 ); }
 .header .header__main { padding: 50px 0; background-color: var(--c-purple-light); color: var(--c-white); box-shadow: 0 5px 10px 0 rgba( 0, 0, 0, .2 ); }
-
-/* ------------------------------------------------------------ *\
-	Nav
-\* ------------------------------------------------------------ */
-
-.nav ul { display: flex; align-items: center; list-style: none; margin: 0 -15px; }
-.nav li { margin: 0 15px; }
-.nav fa-icon { margin-right: 5px; }
-
-.nav--utils li:last-child { margin-left: 0; padding-left: 15px; border-left: 1px solid var(--c-casper)  }
-
-.nav--main ul { font-size: 20px; text-transform: uppercase; margin: 0 -25px; } 
-.nav--main li { margin: 0 25px; } 
-
-/* ------------------------------------------------------------ *\
-	Form
-\* ------------------------------------------------------------ */
-
-.form { position: relative; }
-
-.form .field { padding: 4px 10px; }
-.form .field::placeholder { color: var(--c-gray); opacity: .9; }
-
-.form .form__btn { background-color: transparent; }
-.form .form__label { display: none; }
-
-.form .field,
-.form .form__btn { border: none; color: var( --c-gray ); }
-
-.form .form__actions { position: absolute; top: 50%; right: 5px; transform: translateY( -50% ); }

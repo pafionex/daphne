@@ -4,43 +4,7 @@
 			<div class="header__inner">
 				<app-socials [socials]="socials"></app-socials>
 			
-				<nav class="nav nav--utils">
-					<ul>
-						<li>
-							<fa-icon [icon]="['fas', 'phone']"></fa-icon>
-
-							<a href="tel:555 338 148">555 338 148</a>
-						</li>
-						
-						<li>
-							<fa-icon [icon]="['fas', 'map-marker-alt']"></fa-icon>
-
-							<a routerLinnk="">ул. "Студентска 1"</a>
-						</li>
-
-						<li>
-							<div class="form form-search">
-								<form action="?" method="post">
-									<div class="form__body">
-										<div class="form__row">
-											<label for="field-search" class="form__label">Search</label>
-											
-											<div class="form__controls">
-												<input type="text" class="field" name="field-search" id="field-search" value="" placeholder="Търсене...">
-											</div><!-- /.form__controls -->
-										</div><!-- /.form__row -->
-									</div><!-- /.form__body -->
-									
-									<div class="form__actions">
-										<button type="submit" value="" class="form__btn">
-											<fa-icon [icon]="['fas', 'search']"></fa-icon>
-										</button>
-									</div><!-- /.form__actions -->
-								</form>
-							</div><!-- /.form form-search -->
-						</li>
-					</ul>
-				</nav><!-- /.nav nav-/-utils-->
+				<app-nav-utils [nav]="navUtils"></app-nav-utils>
 			</div><!-- /.header__inner -->
 		</div><!-- /.shell -->
 	</div><!-- /.header__head -->
@@ -50,25 +14,7 @@
 			<div class="header__inner">
 				<a routerLinnk="" class="logo">Зодия Любов</a>
 
-				<nav class="nav nav--main">
-					<ul>
-						<li>
-							<a routerLinnk="">Начало</a>
-						</li>
-						
-						<li>
-							<a routerLinnk="">За Нас</a>
-						</li>
-						
-						<li>
-							<a routerLinnk="">Услуги</a>
-						</li>
-						
-						<li>
-							<a routerLinnk="">Контакти</a>
-						</li>
-					</ul>
-				</nav><!-- /.nav nav-/-main-->
+				<app-nav [modificator]="'nav--main'" [nav]="navMain"></app-nav>
 			</div><!-- /.header__inner -->
 		</div><!-- /.shell -->
 	</div><!-- /.header__main -->

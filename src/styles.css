@@ -188,3 +188,28 @@ blockquote:last-child { margin-bottom: 0; }
 .section .section__head h2 { font-size: 32px; }
 
 .section .section__body p { line-height: 1.5; margin-bottom: 20px; }
+
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form { position: relative; }
+
+.form .field { padding: 4px 10px; }
+.form .field::placeholder { color: var(--c-gray); opacity: .9; }
+
+.form .form__btn { background-color: transparent; }
+.form .form__label { display: none; }
+
+.form .field,
+.form .form__btn { border: none; color: var( --c-gray ); }
+
+.form .form__actions { position: absolute; top: 50%; right: 5px; transform: translateY( -50% ); }
+
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav ul { display: flex; align-items: center; list-style: none; margin: 0 -15px; }
+.nav li { margin: 0 15px; }
+.nav fa-icon { margin-right: 5px; }

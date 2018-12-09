@@ -1,0 +1,31 @@
+<nav class="nav nav-utils">
+	<ul>
+		<li *ngFor="let navItem of nav">
+		    <fa-icon [icon]="navItem.icon"></fa-icon>
+
+		    <a href="navItem.link">{{ navItem.label }}</a>
+		</li>
+
+		<li>
+		    <div class="form form-search">
+		      <form action="?" method="post">
+		        <div class="form__body">
+		          <div class="form__row">
+		            <label for="field-search" class="form__label">Search</label>
+		            
+		            <div class="form__controls">
+		              <input type="text" class="field" name="field-search" id="field-search" value="" placeholder="Търсене...">
+		            </div><!-- /.form__controls -->
+		          </div><!-- /.form__row -->
+		        </div><!-- /.form__body -->
+		        
+		        <div class="form__actions">
+		          <button type="submit" value="" class="form__btn">
+		            <fa-icon [icon]="['fas', 'search']"></fa-icon>
+		          </button>
+		        </div><!-- /.form__actions -->
+		      </form>
+		    </div><!-- /.form form-search -->
+		</li>
+	</ul>
+</nav><!-- /.nav -->

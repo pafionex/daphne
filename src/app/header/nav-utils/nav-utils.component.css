@@ -1,0 +1,5 @@
+/* ------------------------------------------------------------ *\
+	Nav Utils
+\* ------------------------------------------------------------ */
+
+.nav-utils li:last-child { margin-left: 0; padding-left: 15px; border-left: 1px solid var(--c-casper)  }
