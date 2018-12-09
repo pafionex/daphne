@@ -12,4 +12,11 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
+	banner = {
+    title: 'Контакти',
+    breadcrumbs: [
+        { link: '', label: 'Начало' }
+        { link: 'contact', label: 'Контакти' }
+    ]
+  };
 }

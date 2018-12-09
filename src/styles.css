@@ -197,18 +197,18 @@ blockquote:last-child { margin-bottom: 0; }
 	Form
 \* ------------------------------------------------------------ */
 
-.form { position: relative; }
+.form-search { position: relative; }
 
-.form .field { padding: 4px 10px; }
-.form .field::placeholder { color: var(--c-gray); opacity: .9; }
+.form-search .field { padding: 4px 10px; }
+.form-search .field::placeholder { color: var(--c-gray); opacity: .9; }
 
-.form .form__btn { background-color: transparent; }
-.form .form__label { display: none; }
+.form-search .form__btn { background-color: transparent; }
+.form-search .form__label { display: none; }
 
-.form .field,
-.form .form__btn { border: none; color: var( --c-gray ); }
+.form-search .field,
+.form-search .form__btn { border: none; color: var( --c-gray ); }
 
-.form .form__actions { position: absolute; top: 50%; right: 5px; transform: translateY( -50% ); }
+.form-search .form__actions { position: absolute; top: 50%; right: 5px; transform: translateY( -50% ); }
 
 /* ------------------------------------------------------------ *\
 	Nav
@@ -217,3 +217,20 @@ blockquote:last-child { margin-bottom: 0; }
 .nav ul { display: flex; align-items: center; list-style: none; margin: 0 -15px; }
 .nav li { margin: 0 15px; }
 .nav fa-icon { margin-right: 5px; }
+
+/* ------------------------------------------------------------ *\
+	Accordion Wrapper
+\* ------------------------------------------------------------ */
+
+.accordion-wrapper { padding: 60px 0; background-color: var( --c-purple ); color: var( --c-white ); }
+
+.accordion-wrapper .accordion-wrapper__inner { margin: 0 60px; background-color: var( --c-purple-light ); border-radius: 6px; box-shadow: 0 0 10px rgba( 0, 0, 0, .6 ); }
+.accordion-wrapper .mat-expansion-panel-spacing { margin: 0; }
+
+.accordion-wrapper li ~ li { margin-top: 10px; }
+
+.accordion-wrapper mat-accordion { background-color: #000;  }
+.accordion-wrapper mat-expansion-panel-header { font-size: 28px; }
+.accordion-wrapper mat-expansion-panel { border: 1px solid var( --c-purple-dark ); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.accordion-wrapper mat-expansion-panel ~ mat-expansion-panel { border-top-left-radius: 0; border-top-right-radius: 0; }
+.accordion-wrapper mat-expansion-panel .mat-expansion-panel-content { border-top: 1px solid #000; padding: 15px 0 0 15px; }

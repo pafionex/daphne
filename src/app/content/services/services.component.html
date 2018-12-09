@@ -1,3 +1,22 @@
-<p>
-  services works!
-</p>
+<app-banner [banner]="banner" ></app-banner>
+
+<div class="accordion-wrapper">
+	<div class="shell">
+		<div class="accordion-wrapper__inner">
+			<mat-accordion>
+			  <mat-expansion-panel *ngFor="let service of services">
+			    <mat-expansion-panel-header>
+			    	{{ service.category }}
+			    </mat-expansion-panel-header>
+
+			    <ul>
+			    	<li *ngFor="let item of service.items">
+			    		{{ item }}
+			    	</li>
+			    </ul>
+
+			  </mat-expansion-panel>
+			</mat-accordion>
+		</div><!-- /.accordion-wrapper__inner -->
+	</div><!-- /.shell -->
+</div><!-- /.accordion-wrapper -->

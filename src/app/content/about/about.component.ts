@@ -34,6 +34,6 @@ export class AboutComponent implements OnInit {
         { link: '', label: 'Начало' }
         { link: 'about', label: 'За нас' }
     ]
-  }
+  };
 
 }
