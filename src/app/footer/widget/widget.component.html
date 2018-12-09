@@ -1,0 +1,11 @@
+<div class="widget">
+	<div class="widget__head">
+		<h3>{{ title }}</h3>
+	</div><!-- /.widget__head -->
+
+	<div class="widget__body">
+		<ul *ngFor="let listItem of list">
+			<li [innerHTML]="listItem"></li>
+		</ul>
+	</div><!-- /.widget__body -->
+</div><!-- /.widget -->

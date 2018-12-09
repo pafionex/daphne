@@ -20,6 +20,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { WidgetComponent } from './footer/widget/widget.component';
 
 
 library.add(faFacebook);
@@ -36,7 +37,8 @@ library.add(faSearch);
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ArticleComponent
+    ArticleComponent,
+    WidgetComponent
   ],
   imports: [
     BrowserModule,
