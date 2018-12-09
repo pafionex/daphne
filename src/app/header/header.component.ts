@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
 
   navUtils = [
     { link: "tel:555338148", label: '555 338 148', icon: ['fas', 'phone'] },
-    { link: "#", label: 'ул. "Студентска 1"', icon: ['fas', 'map-marker-alt'] }
+    { link: "https://www.google.com/maps/place/ul.+%22Studentska%22+1,+9010+Levski,+Varna/@43.22318,27.9319313,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4543efa127c01:0xb3ceb11a4a5d4055!8m2!3d43.22318!4d27.93412", label: 'ул. "Студентска 1"', icon: ['fas', 'map-marker-alt'] }
   ];
 
   ngOnInit() {
