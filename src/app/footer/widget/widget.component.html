@@ -4,8 +4,8 @@
 	</div><!-- /.widget__head -->
 
 	<div class="widget__body">
-		<ul *ngFor="let listItem of list">
-			<li [innerHTML]="listItem"></li>
+		<ul>
+			<li *ngFor="let listItem of list" [innerHTML]="listItem"></li>
 		</ul>
 	</div><!-- /.widget__body -->
 </div><!-- /.widget -->

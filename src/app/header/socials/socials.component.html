@@ -1,0 +1,9 @@
+<div class="socials">
+	<ul>
+		<li *ngFor="let socialsItem of socials">
+			<a href="{{ socialsItem.url }}">
+				<fa-icon [icon]="socialsItem.icon"></fa-icon>
+			</a>
+		</li>
+	</ul>
+</div><!-- /.socials -->

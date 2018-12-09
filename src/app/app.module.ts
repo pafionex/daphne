@@ -21,6 +21,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { WidgetComponent } from './footer/widget/widget.component';
+import { SocialsComponent } from './header/socials/socials.component';
 
 
 library.add(faFacebook);
@@ -38,7 +39,8 @@ library.add(faSearch);
     FooterComponent,
     HomeComponent,
     ArticleComponent,
-    WidgetComponent
+    WidgetComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
