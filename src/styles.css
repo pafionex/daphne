@@ -182,12 +182,16 @@ blockquote:last-child { margin-bottom: 0; }
 	Section
 \* ------------------------------------------------------------ */
 
-.section { padding: 50px 0; background-color: var( --c-purple ); color: var( --c-white ); }
+.section { padding: 50px 0; color: var( --c-white ); }
 
 .section .section__head { text-align: center; margin-bottom: 40px; }
 .section .section__head h2 { font-size: 32px; }
 
 .section .section__body p { line-height: 1.5; margin-bottom: 20px; }
+
+.section-wrapper .section { background-color: var( --c-purple ); }
+.section-wrapper ~ .section-wrapper .section { border-top: 1px solid var( --c-purple-dark );  }
+.section-wrapper:nth-child(even) .section { background-color: var( --c-purple-light ); }
 
 /* ------------------------------------------------------------ *\
 	Form

@@ -26,6 +26,7 @@ import { faGooglePlus } from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { TeamComponent } from './sections/team/team.component';
 
 
 
@@ -50,7 +51,8 @@ library.add(faSearch);
     NavUtilsComponent,
     AboutComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

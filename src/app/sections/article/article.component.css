@@ -2,7 +2,7 @@
 	Article
 \* ------------------------------------------------------------ */
 
-.article { display: flex; justify-content: space-around; background-color: --var( --c-purple );  }
+.article { display: flex; justify-content: space-around; align-items: center;  }
 
 .article .article__entry { width: 50%; }
-.article .article__image { border: 6px solid var( --c-purple-light ); box-shadow: 0 0 10px rgba( 0, 0, 0, .6 ); }
+.article .article__image { border: 6px solid var( --c-purple-dark ); box-shadow: 0 0 10px rgba( 0, 0, 0, .6 ); }

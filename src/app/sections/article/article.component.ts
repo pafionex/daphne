@@ -7,9 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 
 export class ArticleComponent implements OnInit {
-	@Input() title: string;
-	@Input() content: string;
-	@Input() image: string;
+	@Input() articleContent: Object;
 
   constructor() { }
 

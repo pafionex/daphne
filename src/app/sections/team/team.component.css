@@ -1,0 +1,13 @@
+/* ------------------------------------------------------------ *\
+	Team
+\* ------------------------------------------------------------ */
+
+.team { display: flex; flex-wrap: wrap; }
+.team .team-member { width: 33%; }
+
+/* ------------------------------------------------------------ *\
+	Team Member
+\* ------------------------------------------------------------ */
+
+.team-member { text-align: center; margin-bottom: 30px; }
+.team-member .team-member__img { display: inline-block; border: 6px solid var( --c-purple-dark ); border-radius: 100%; overflow: hidden; }
