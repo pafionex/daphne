@@ -27,6 +27,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { TeamComponent } from './sections/team/team.component';
+import { BannerComponent } from './sections/banner/banner.component';
 
 
 
@@ -52,7 +53,8 @@ library.add(faSearch);
     AboutComponent,
     ServicesComponent,
     ContactComponent,
-    TeamComponent
+    TeamComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

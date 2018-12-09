@@ -28,4 +28,12 @@ export class AboutComponent implements OnInit {
 	image: 'article-2.jpeg'
   }
 
+  banner = {
+    title: 'За нас',
+    breadcrumbs: [
+        { link: '', label: 'Начало' }
+        { link: 'about', label: 'За нас' }
+    ]
+  }
+
 }

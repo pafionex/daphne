@@ -1,0 +1,21 @@
+<div class="banner">
+	<div class="shell">
+		<div class="overlay"></div><!-- /.overlay -->
+
+		<div class="banner__inner">	
+			<div class="banner__head">
+				<h2>{{ banner.title }}</h2>
+			</div><!-- /.banner__head -->
+			
+			<div class="banner__body">
+				<div class="breadcrumbs">
+					<ul>
+						<li *ngFor="let breadcrumbsItem of banner.breadcrumbs">
+							<a routerLink="/{{ breadcrumbsItem.link }}">{{ breadcrumbsItem.label }}</a>
+						</li>
+					</ul>
+				</div><!-- /.breadcrumbs -->
+			</div><!-- /.banner__body -->
+		</div><!-- /.banner__inner -->
+	</div><!-- /.shell -->
+</div><!-- /.banner -->
