@@ -2,4 +2,6 @@
 	Nav Utils
 \* ------------------------------------------------------------ */
 
-.nav-utils li:last-child { margin-left: 0; padding-left: 15px; border-left: 1px solid var(--c-casper)  }
+.nav-utils li:last-child { margin-left: 0; padding-left: 15px; border-left: 1px solid var(--c-casper) }
+.nav-utils li { transition: text-shadow .3s; }
+.nav-utils li:hover { text-shadow: 0 0 3px var( --c-white ); transition: text-shadow .3s; }

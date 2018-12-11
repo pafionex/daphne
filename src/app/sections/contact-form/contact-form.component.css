@@ -8,5 +8,6 @@
 .form-contact input, 
 .form-contact textarea { width: 100%; padding: 8px 12px; border: 1px solid var( --c-purple-dark ); border-radius: 6px; margin-bottom: 10px; }
 
-.form-contact .form__btn { background-color: var( --c-purple-dark ); width: 50%; margin: 20px auto; display: block; }
+.form-contact .form__btn { background-color: var( --c-purple-dark ); width: 50%; margin: 20px auto; display: block; transition: opacity .3s; }
+.form-contact .form__btn:hover { opacity: .8; transition: opacity .3s; }
 .form-contact .form__label { display: none }

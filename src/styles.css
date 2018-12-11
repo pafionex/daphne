@@ -12,7 +12,7 @@
 	
 	--c-white 					: #fff;
 	--c-gray 					: #333;
-	--c-pink 					: #d83f87;
+	--c-pink 					: #e78bb7;
 	--c-purple					: #44318d;
 	--c-purple-dark				: #2a1b3d;
 	--c-purple-light			: #e98074;
@@ -230,7 +230,8 @@ blockquote:last-child { margin-bottom: 0; }
 .accordion-wrapper li ~ li { margin-top: 10px; }
 
 .accordion-wrapper mat-accordion { background-color: #000;  }
-.accordion-wrapper mat-expansion-panel-header { font-size: 28px; }
+.accordion-wrapper mat-expansion-panel-header { font-size: 28px; transition: color .3s; }
+.accordion-wrapper mat-expansion-panel-header:hover { color: var( --c-purple-dark ); transition: color .3s; }
 .accordion-wrapper mat-expansion-panel { border: 1px solid var( --c-purple-dark ); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .accordion-wrapper mat-expansion-panel ~ mat-expansion-panel { border-top-left-radius: 0; border-top-right-radius: 0; }
 .accordion-wrapper mat-expansion-panel .mat-expansion-panel-content { border-top: 1px solid #000; padding: 15px 0 0 15px; }

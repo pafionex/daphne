@@ -3,4 +3,5 @@
 \* ------------------------------------------------------------ */
 
 .nav-main ul { font-size: 20px; text-transform: uppercase; margin: 0 -25px; } 
-.nav-main li { margin: 0 25px; } 
+.nav-main li { margin: 0 25px; transition: text-shadow .3s; }
+.nav-main li:hover { margin: 0 25px; text-shadow: 0 0 3px var( --c-white ); transition: text-shadow .3s; }
