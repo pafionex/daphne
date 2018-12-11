@@ -1,57 +1,17 @@
 <div class="section">
 	<div class="shell">
 	    <div class="section__head">
-	        <h2>Запознай се с нашия екип</h2>
+	        <h2>{{ team.title }}</h2>
 	    </div><!-- /.section__head -->
 
 	    <div class="section__body">
 	        <div class="team">
-	            <div class="team-member">
+	            <div class="team-member" *ngFor="let member of team.members">
 	                <div class="team-member__img">
-	                	<img src="./assets/images/team-member-1.jpeg" alt="">
+	                	<img src="./assets/images/{{ member.image }}" alt="">
 	                </div><!-- /.team-member__img -->
 
-	                <h4>Д-р Свилен Василев</h4>
-	            </div><!-- /.team-member -->
-
-	            <div class="team-member">
-	                <div class="team-member__img">
-		                <img src="./assets/images/team-member-1.jpeg" alt="">
-		            </div><!-- /.team-member__img -->
-
-	                <h4>Д-р Десислава Дочева</h4>
-	            </div><!-- /.team-member -->
-
-	            <div class="team-member">
-	                <div class="team-member__img">
-		                <img src="./assets/images/team-member-1.jpeg" alt="">
-		            </div><!-- /.team-member__img -->
-
-	                <h4>Д-р Светослав Коцев</h4>
-	            </div><!-- /.team-member -->
-
-	            <div class="team-member">
-	                <div class="team-member__img">
-		                <img src="./assets/images/team-member-1.jpeg" alt="">
-		            </div><!-- /.team-member__img -->
-
-	                <h4>Д-р Юлия Тонева</h4>
-	            </div><!-- /.team-member -->
-
-	            <div class="team-member">
-	                <div class="team-member__img">
-		                <img src="./assets/images/team-member-1.jpeg" alt="">
-		            </div><!-- /.team-member__img -->
-
-	                <h4>Д-р Александър Койчев</h4>
-	            </div><!-- /.team-member -->
-
-	            <div class="team-member">
-	                <div class="team-member__img">
-		                <img src="./assets/images/team-member-1.jpeg" alt="">
-		            </div><!-- /.team-member__img -->
-
-	                <h4>Д-р Сергей Ангелов</h4>
+	                <h4>{{ member.name }}</h4>
 	            </div><!-- /.team-member -->
 	        </div><!-- /.team -->
 	    </div><!-- /.section__body -->
