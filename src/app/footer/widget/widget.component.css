@@ -3,3 +3,4 @@
 \* ------------------------------------------------------------ */
 
 .widget { text-shadow: 0px 0px 3px var( --c-gray ); }
+.widget .widget__head { margin-bottom: 6px; }
