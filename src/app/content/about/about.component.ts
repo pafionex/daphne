@@ -31,7 +31,7 @@ export class AboutComponent implements OnInit {
   banner = {
     title: 'За нас',
     breadcrumbs: [
-        { link: '', label: 'Начало' }
+        { link: '', label: 'Начало' },
         { link: 'about', label: 'За нас' }
     ]
   };
@@ -39,11 +39,11 @@ export class AboutComponent implements OnInit {
   team = {
     title: 'Запознай се с нашия екип',
     members: [
-      { name: 'Д-р Свилен Василев' , image: 'team-member-1.jpeg' }
-      { name: 'Д-р Десислава Дочева' , image: 'team-member-2.jpeg' }
-      { name: 'Д-р Светослав Коцев' , image: 'team-member-3.jpeg' }
-      { name: 'Д-р Юлия Тонева' , image: 'team-member-4.jpeg' }
-      { name: 'Д-р Александър Койчев' , image: 'team-member-5.jpeg' }
+      { name: 'Д-р Свилен Василев' , image: 'team-member-1.jpeg' },
+      { name: 'Д-р Десислава Дочева' , image: 'team-member-2.jpeg' },
+      { name: 'Д-р Светослав Коцев' , image: 'team-member-3.jpeg' },
+      { name: 'Д-р Юлия Тонева' , image: 'team-member-4.jpeg' },
+      { name: 'Д-р Александър Койчев' , image: 'team-member-5.jpeg' },
       { name: 'Д-р Сергей Ангелов' , image: 'team-member-6.jpeg' }
     ]
   }

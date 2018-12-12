@@ -15,7 +15,7 @@ export class ContactComponent implements OnInit {
 	banner = {
     title: 'Контакти',
     breadcrumbs: [
-        { link: '', label: 'Начало' }
+        { link: '', label: 'Начало' },
         { link: 'contact', label: 'Контакти' }
     ]
   };

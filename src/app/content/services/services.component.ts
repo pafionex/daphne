@@ -15,7 +15,7 @@ export class ServicesComponent implements OnInit {
 	banner = {
     title: 'Услуги',
     breadcrumbs: [
-        { link: '', label: 'Начало' }
+        { link: '', label: 'Начало' },
         { link: 'services', label: 'За нас' }
     ]
   };
@@ -136,7 +136,7 @@ export class ServicesComponent implements OnInit {
         'Йоркширски териер – 20.00 лв.',
         'Кокер шпаньол – 30.00 лв.',
         'Болонезе – 20.00 лв.',
-        'Пудел – 20.00 лв.'
+        'Пудел – 20.00 лв.',
         'Лагото романьоло – 30.00 лв.',
         'Пекинез – 20.00 лв.',
         'Померан – 20.00 лв.',
